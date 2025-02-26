@@ -1,0 +1,9 @@
+npm i express
+npm i mongoose
+npm i morgan -> through this we can see the api, api request, hit timing, response timing and check hit url.
+npm i cors -> we have two server node js and react js so we can see the cross origin error
+npm i colors
+npm i dotenv
+npm i nodemon -> we can make a server with the help of nodemon
+
+npm run server
