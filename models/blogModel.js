@@ -14,6 +14,11 @@ const blogSchema = new mongoose.Schema(
       type: String,
       required: [true, "image is required"],
     },
+    user: { // we can make relation between user and blog
+      type: mongoose.Types.ObjectId,
+      ref: 'User',
+      require: [true, 'User id is required']
+    }
   },
   { timestamps: true }
 );
